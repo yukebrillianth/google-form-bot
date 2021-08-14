@@ -4,7 +4,7 @@ const config = require('./config.json');
 
 const date = new Date;
 const year = date.getFullYear();
-const month = date.getMonth() + 1; // beware: January = 0; February = 1, etc.
+const month = date.getMonth() + 1;
 const day = date.getDate();
 
 const dateFormat = year + "-" + ("0" + month).slice(-2) + "-" + day;
